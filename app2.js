@@ -21,11 +21,12 @@ if(nombreMat === "web2"){
 };*/
 
 //Numero entre 1 y 10 
-
+alert("ATENCION!! Debes elegir un numero del 1 al 10, o si no tu pc muere ")
 let numero = parseInt(prompt("Dame un numero entre 1-10: "));
 if(numero <= 10 && numero >=1){
     console.log("Bien")
 }else{
-    console.log("Mal")
+    console.log("Mal :(((")
+    alert("Oh no!!!");
 }
 console.log(numero);
