@@ -8,6 +8,10 @@ let tienda = {
         4: { nombre: "Sombrero", precio: 200 }
     }
 };
+/*Con el objeto, en lugar de crear variables separadas como ropa o precio, lo que buscamos 
+es acceder a sus atributos para mas comodidad a la hora de realizar las operaciones matematicas y sacar el total
+tambien en el arreglo se van a agregar de forma mas sencilla  
+*/
 
 // Función flecha para mostrar el menú y capturar la opción
 const mostrarMenu = () => parseInt(prompt(`
