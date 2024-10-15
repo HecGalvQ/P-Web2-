@@ -13,6 +13,7 @@ carrito.forEach((frutas, index)=>{
 })
 alert(`Usted tiene:\n ${mensaje}`)
 */
+// A)
 let a = "X";
 vertical = "Resultado:\n "
 for (equis in a){
@@ -30,7 +31,7 @@ for (equis in b){
     horizontal +=`${b}${b}${b}${b}`
 }
 alert(horizontal)
-
+//B)
 // Solicitar número 
 let cantidad = prompt("Ingresa el número de x:");
 
@@ -54,18 +55,19 @@ if (formato.toLowerCase() === "horizontal") {
 } else {
     alert("Opción no válida.");
 }
-
+//C)
 // Imprimir un cuadrado de 4x4
 let resultadoCuadrado = "";
 
 for (let i = 0; i < 4; i++) {  // Bucle para cada fila
     for (let j = 0; j < 4; j++) {  
-        resultadoCuadrado += "X";  // Concatenar asteriscos
+        resultadoCuadrado += "X";  // Concatenar 
     }
     resultadoCuadrado += "\n";  //Salto de línea después de cada fila
 }
 
 alert(resultadoCuadrado);  
+//D)
 //Tablas 1 al 10
 let resultadoTabla = "";
 
