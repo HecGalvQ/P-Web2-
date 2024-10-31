@@ -1,0 +1,93 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;  /* Fondo oscuro */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #1e1e1e;  /* Fondo oscuro para el contenedor */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #f4f4f4;  /* Color de los textos de los labels */
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1rem;
+    background-color: #333333;  /* Fondo oscuro para los inputs */
+    color: white;
+    border: 2px solid #ffeb3b;  /* Borde amarillo */
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+/* Efecto al enfocar un input */
+input[type="text"]:focus, 
+input[type="email"]:focus {
+    border-color: #ffc107;  /* Amarillo más claro al enfocar */
+}
+
+/* Botones */
+button {
+    background-color: #ffeb3b;  /* Amarillo */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffc107;  /* Amarillo más claro al pasar el mouse */
+}
+
+/* QR Code Container */
+#qr-code {
+    margin-top: 20px;
+    background-color: #1e1e1e;  /* Fondo oscuro del contenedor QR */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Estilo del enlace */
+a {
+    display: inline-block;
+    background-color: #ffeb3b;  /* Amarillo */
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #ffc107;  /* Amarillo más claro en hover */
+}

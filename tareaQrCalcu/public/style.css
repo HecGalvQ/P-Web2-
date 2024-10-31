@@ -1,0 +1,103 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;  /* Fondo oscuro */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo de la calculadora */
+.calculadora {
+    width: 300px;  /* Ancho de la calculadora */
+    margin: 50px auto;
+    border: 5px solid #08deff;  /* Borde de color cyan */
+    border-radius: 5px;
+    background-color: #1e1e1e;  /* Fondo oscuro para la calculadora */
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6); /* Sutil sombra */
+}
+
+/* Pantalla de la calculadora */
+#pantalla {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.5rem;
+    background-color: #333333;  /* Fondo oscuro para la pantalla */
+    color: #f4f4f4;  /* Texto claro */
+    border: none;
+    border-radius: 5px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+/* Estilo de los botones */
+input[type="button"] {
+    width: 60px;  /* Ancho de los botones */
+    height: 60px;  /* Altura de los botones */
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #4d4d4d;  /* Gris oscuro para botones numéricos */
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Botones funcionales (operadores) */
+input[value="+"], 
+input[value="-"], 
+input[value="*"], 
+input[value="/"] {
+    background-color: #ff5722;  /* Anaranjado para operadores */
+}
+
+input[value="C"] {
+    background-color: #d32f2f;  /* Rojo para limpiar */
+}
+
+input[value="="] {
+    background-color: #388e3c;  /* Verde para igual */
+}
+
+/* Efecto hover en botones */
+input[type="button"]:hover {
+    background-color: #5a5a5a;  /* Botones numéricos en hover */
+}
+
+input[value="+"],
+input[value="-"],
+input[value="*"],
+input[value="/"]:hover {
+    background-color: #ff7043;  /* Anaranjado más claro en hover */
+}
+
+input[value="C"]:hover {
+    background-color: #e53935;  /* Rojo más claro en hover */
+}
+
+input[value="="]:hover {
+    background-color: #43a047;  /* Verde más claro en hover */
+}
+
+/* Enlace al inicio */
+a {
+    display: inline-block;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #ff7043;
+}
