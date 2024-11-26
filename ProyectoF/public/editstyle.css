@@ -1,0 +1,69 @@
+body {
+    background-color: #121827;  /* Color de fondo */
+    color: white;                /* Color del texto */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #ffe82d;              /* Color amarillo para el título */
+}
+
+form {
+    background-color: #005bc6;   /* Color de fondo del formulario */
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;                /* Texto de las etiquetas en blanco */
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ffe82d;   /* Color amarillo para el botón */
+    color: #121827;              /* Texto oscuro */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #e6d127;   /* Un tono más oscuro al pasar el ratón */
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffe82d;              /* Enlace amarillo */
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}

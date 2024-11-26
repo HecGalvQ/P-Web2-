@@ -1,0 +1,82 @@
+body {
+    background-color: #121827;  /* Color de fondo */
+    color: white;                /* Color de texto principal */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ffe82d;  /* Color amarillo para los títulos */
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr {
+    background-color: #005bc6;  /* Color de las filas */
+    color: white;                /* Color del texto */
+}
+
+tr:hover {
+    background-color: #004a9f;  /* Un tono más oscuro al pasar el ratón */
+}
+
+th {
+    background-color: #004a9f;  /* Encabezado de la tabla */
+}
+
+a {
+    color: #ffe82d;              /* Enlaces en color amarillo */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #005bc6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: white;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ffe82d;   /* Color amarillo para el botón */
+    color: #121827;              /* Texto oscuro */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e6d127;   /* Un tono más oscuro al pasar el ratón */
+}
